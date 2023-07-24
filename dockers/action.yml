@@ -1,0 +1,6 @@
+name: 'run average'
+description: 'run average and record the time'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
