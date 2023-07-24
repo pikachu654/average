@@ -4,7 +4,8 @@ to use docker change the inputs of the file run_hello2.sh from '1' '2' '3', to y
     ```
     docker build - < Dockerfile
     ```
+
 Then run 
     ```
     docker run
-    ```
+    ```.
