@@ -11,8 +11,9 @@ int main(int argc, char **argv)
 
   	int val;
   	if (argc >= 2){    
+		string filename = val + "/test_write.txt";
 		out.open(filename.c_str());
-		std::out << "Hi! here is the average of the 3 numbers\n";
+		out << "Hi! here is the average of the 3 numbers\n";
 	 	for (int i = 1; i < argc; i++){
 			val = atoi(argv[i]);
 			average += val;
